@@ -1,0 +1,35 @@
+# 3.64
+## A.
+For array $A[R][S][T]$ with each element having size $L$,
+$$\&A[i][j][k] = x_A + L(T \cdot S \cdot i + T \cdot j + k)$$
+
+## B.
+R = 7, S = 5, T = 13.
+
+# 3.68
+A = 9, B = 5.
+
+# 3.69
+## A.
+CNT = 7.
+
+## B.
+```
+typedef struct {
+    long idx;
+    long x[4];
+} a_struct;
+```
+
+# 3.70
+## A.
+e1.p 0
+e1.y 8
+e2.x 0
+e2.next 8
+
+## B.
+e1 16, e2 16, ele 16.
+
+## C.
+`up->x = *(up->next->p) - up->next->y`
